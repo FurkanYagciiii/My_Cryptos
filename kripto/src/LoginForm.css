@@ -1,0 +1,106 @@
+/* Genel Stil */
+body{
+  background-color: #101010;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Yapısı */
+.card {
+  background-color: #66ccff; /* Card için koyu gri renk */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Başlık */
+.card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+/* Form Elemanları */
+.card form div {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.card label {
+  font-size: 14px;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.card input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color:  #0086b3;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+}
+
+.card input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Butonlar */
+.card button {
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.card button:disabled {
+  background-color: #4a90e2;
+  cursor: not-allowed;
+}
+
+.card .message {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #e57373;
+}
+
+/* Giriş/Kayıt Ol Bağlantısı */
+.card .link {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.card .link button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.card .link button:hover {
+  color: #0056b3;
+}

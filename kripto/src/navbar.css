@@ -1,0 +1,64 @@
+/* Genel navbar stilleri */
+.navbar {
+    background-color: #66d9ff; /* Koyu bir arka plan rengi */
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Navbar container */
+  .navbar-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Navbar başlığı */
+  .navbar-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-title:hover {
+    color: #ffcc00; /* Altın sarısı */
+  }
+  
+  /* Navbar buton grubu */
+  .navbar-buttons {
+    display: flex;
+    gap: 15px; /* Butonlar arasındaki boşluk */
+  }
+  
+  /* Buton stilleri */
+  .navbar-btn {
+    background-color: #292b3e; /* Hafif koyu buton rengi */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .navbar-btn:hover {
+    background-color: #3d3f54; /* Hover'da biraz daha açık renk */
+    transform: scale(1.05); /* Hover'da hafif büyütme */
+  }
+  
+  .navbar-btn:active {
+    background-color: #ffcc00; /* Tıklamada altın sarısı */
+    transform: scale(0.95); /* Tıklamada küçültme */
+  }
+  

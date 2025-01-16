@@ -1,0 +1,90 @@
+/* Ayarlar sayfası ana kapsayıcı */
+.settings-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Elemanlar arasında boşluk */
+}
+/* Input alanlarının genel kapsayıcısı */
+.settings-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Input alanları */
+  .settings-container input {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input alanı hover ve focus stilleri */
+  .settings-container input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+/* Butonlar için kapsayıcı */
+.settings-buttons {
+  display: flex;
+  justify-content: space-between; /* Butonları aralıklı yerleştirir */
+  gap: 10px;
+}
+
+/* Genel düğme stilleri */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Güncelle butonu */
+.update-button:not(.logout-button):not(.delete-account-button) {
+  background-color: #007bff;
+}
+
+.update-button:not(.logout-button):not(.delete-account-button):hover {
+  background-color: #0056b3;
+}
+
+/* Çıkış yap butonu */
+.logout-button {
+  margin-left: auto; /* Diğerlerinden sağda durmasını sağlar */
+  background-color: #ff5722;
+}
+
+.logout-button:hover {
+  background-color: #e64a19;
+}
+
+/* Hesabı sil butonu */
+.delete-account-button {
+  background-color: #f44336;
+}
+
+.delete-account-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Mesaj */
+.message {
+  text-align: center;
+  color: #28a745;
+  font-size: 16px;
+  margin-bottom: 20px;
+}

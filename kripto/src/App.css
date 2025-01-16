@@ -1,0 +1,17 @@
+/* Navbar */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #e6f7ff;
+  }
+
+  
+  /* Hata ve Mesaj */
+  .login-message {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #d9534f; /* Hata mesajları için kırmızı */
+    text-align: center;
+  }
+  
