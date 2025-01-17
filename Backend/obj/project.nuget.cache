@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LAaRsYNsPtM=",
+  "dgSpecHash": "L+FDqnVbUPo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\UserAuthAPI\\UserAuthAPI.csproj",
+  "projectFilePath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\Backend\\UserAuthAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Furka\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Furka\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

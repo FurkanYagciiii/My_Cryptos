@@ -10039,11 +10039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\UserAuthAPI\\UserAuthAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\Backend\\UserAuthAPI.csproj",
       "projectName": "UserAuthAPI",
-      "projectPath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\UserAuthAPI\\UserAuthAPI.csproj",
+      "projectPath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\Backend\\UserAuthAPI.csproj",
       "packagesPath": "C:\\Users\\Furka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\UserAuthAPI\\obj\\",
+      "outputPath": "C:\\Users\\Furka\\OneDrive\\Masaüstü\\web_tum\\My_Cryptos\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Furka\\AppData\\Roaming\\NuGet\\NuGet.Config",
