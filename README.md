@@ -7,3 +7,6 @@ yarn dev
 Backen Gelistirme sunucusunun calistirma :
 Backend Klasöründe terminalde
 Dotnet run
+
+
+ Video Linki : https://youtu.be/ZpPDidoMmFs
